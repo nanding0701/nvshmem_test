@@ -1,0 +1,366 @@
+MPICH_GPU_SUPPORT_ENABLED=0
+IN USE - mpi 3/4, nvshmem 3/4 , ndevices=4,cur=3, node=nid001016
+IN USE - mpi 2/4, nvshmem 2/4 , ndevices=4,cur=2, node=nid001016
+IN USE - mpi 0/4, nvshmem 0/4 , ndevices=4,cur=0, node=nid001016
+IN USE - mpi 1/4, nvshmem 1/4 , ndevices=4,cur=1, node=nid001016
+iter=100000,start_peer=1, skip_peer=4,msgSize=8,msg_per_syn=1
+---- size=8, elem=1, MAX_TB=80, malloc 0.000640 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,1,time per sync,57.463917,iter,100000,skip,0
+size=,8, block,1, msg_per_sync,1,time per sync,5.678002,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,2,time per sync,54.558914,iter,100000,skip,0
+size=,8, block,1, msg_per_sync,2,time per sync,8.141609,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,4,time per sync,54.293652,iter,100000,skip,0
+size=,8, block,1, msg_per_sync,4,time per sync,13.094434,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,6,time per sync,54.131672,iter,100000,skip,0
+size=,8, block,1, msg_per_sync,6,time per sync,18.032112,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,8,time per sync,54.243919,iter,100000,skip,0
+size=,8, block,1, msg_per_sync,8,time per sync,22.995010,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,10,time per sync,54.244186,iter,10000,skip,0
+size=,8, block,1, msg_per_sync,10,time per sync,27.936779,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,100,time per sync,53.360352,iter,1000,skip,0
+size=,8, block,1, msg_per_sync,100,time per sync,250.072037,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,1000,time per sync,104.376961,iter,100,skip,0
+size=,8, block,1, msg_per_sync,1000,time per sync,2468.519775,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,10000,time per sync,635.398376,iter,10,skip,0
+size=,8, block,1, msg_per_sync,10000,time per sync,24696.777344,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,100000,time per sync,6001.088379,iter,1,skip,0
+size=,8, block,1, msg_per_sync,100000,time per sync,245873.062500,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,8, block,216, msg_per_sync,1000000,time per sync,59501.183594,iter,1,skip,0
+size=,8, block,1, msg_per_sync,1000000,time per sync,2466865.750000,iter,1,skip,0
+---- size=32, elem=4, MAX_TB=80, malloc 0.002560 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,1,time per sync,56.410130,iter,100000,skip,0
+size=,32, block,1, msg_per_sync,1,time per sync,5.657222,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,2,time per sync,54.390884,iter,100000,skip,0
+size=,32, block,1, msg_per_sync,2,time per sync,8.137728,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,4,time per sync,53.965691,iter,100000,skip,0
+size=,32, block,1, msg_per_sync,4,time per sync,13.083725,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,6,time per sync,54.236416,iter,100000,skip,0
+size=,32, block,1, msg_per_sync,6,time per sync,18.024649,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,8,time per sync,54.285999,iter,100000,skip,0
+size=,32, block,1, msg_per_sync,8,time per sync,22.993488,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,10,time per sync,54.389114,iter,10000,skip,0
+size=,32, block,1, msg_per_sync,10,time per sync,27.927185,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,100,time per sync,54.255104,iter,1000,skip,0
+size=,32, block,1, msg_per_sync,100,time per sync,250.051514,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,1000,time per sync,100.385925,iter,100,skip,0
+size=,32, block,1, msg_per_sync,1000,time per sync,2472.542725,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,10000,time per sync,639.599976,iter,10,skip,0
+size=,32, block,1, msg_per_sync,10000,time per sync,24636.164062,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,100000,time per sync,6021.279785,iter,1,skip,0
+size=,32, block,1, msg_per_sync,100000,time per sync,246534.593750,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,32, block,216, msg_per_sync,1000000,time per sync,59640.062500,iter,1,skip,0
+size=,32, block,1, msg_per_sync,1000000,time per sync,2460491.250000,iter,1,skip,0
+---- size=256, elem=32, MAX_TB=80, malloc 0.020480 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,1,time per sync,56.719292,iter,100000,skip,0
+size=,256, block,1, msg_per_sync,1,time per sync,5.691335,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,2,time per sync,56.210804,iter,100000,skip,0
+size=,256, block,1, msg_per_sync,2,time per sync,8.216545,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,4,time per sync,54.417931,iter,100000,skip,0
+size=,256, block,1, msg_per_sync,4,time per sync,13.215965,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,6,time per sync,55.701385,iter,100000,skip,0
+size=,256, block,1, msg_per_sync,6,time per sync,18.257582,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,8,time per sync,60.924541,iter,100000,skip,0
+size=,256, block,1, msg_per_sync,8,time per sync,23.225693,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,10,time per sync,54.169636,iter,10000,skip,0
+size=,256, block,1, msg_per_sync,10,time per sync,28.240278,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,100,time per sync,51.193054,iter,1000,skip,0
+size=,256, block,1, msg_per_sync,100,time per sync,254.047684,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,1000,time per sync,100.080956,iter,100,skip,0
+size=,256, block,1, msg_per_sync,1000,time per sync,2509.520264,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,10000,time per sync,627.558411,iter,10,skip,0
+size=,256, block,1, msg_per_sync,10000,time per sync,25042.425781,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,100000,time per sync,6122.655762,iter,1,skip,0
+size=,256, block,1, msg_per_sync,100000,time per sync,249503.234375,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,256, block,216, msg_per_sync,1000000,time per sync,55950.976562,iter,1,skip,0
+size=,256, block,1, msg_per_sync,1000000,time per sync,2495357.250000,iter,1,skip,0
+---- size=2048, elem=256, MAX_TB=80, malloc 0.163840 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,1,time per sync,59.215286,iter,100000,skip,0
+size=,2048, block,1, msg_per_sync,1,time per sync,6.180863,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,2,time per sync,54.823425,iter,100000,skip,0
+size=,2048, block,1, msg_per_sync,2,time per sync,9.225134,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,4,time per sync,55.090076,iter,100000,skip,0
+size=,2048, block,1, msg_per_sync,4,time per sync,15.285954,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,6,time per sync,54.609684,iter,100000,skip,0
+size=,2048, block,1, msg_per_sync,6,time per sync,21.355732,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,8,time per sync,55.570389,iter,100000,skip,0
+size=,2048, block,1, msg_per_sync,8,time per sync,27.424400,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,10,time per sync,54.991074,iter,10000,skip,0
+size=,2048, block,1, msg_per_sync,10,time per sync,33.506302,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,100,time per sync,57.705025,iter,1000,skip,0
+size=,2048, block,1, msg_per_sync,100,time per sync,306.804718,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,1000,time per sync,187.149124,iter,100,skip,0
+size=,2048, block,1, msg_per_sync,1000,time per sync,3037.962158,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,10000,time per sync,1865.167969,iter,10,skip,0
+size=,2048, block,1, msg_per_sync,10000,time per sync,30323.109375,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,100000,time per sync,18729.087891,iter,1,skip,0
+size=,2048, block,1, msg_per_sync,100000,time per sync,303000.875000,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,2048, block,216, msg_per_sync,1000000,time per sync,186646.796875,iter,1,skip,0
+size=,2048, block,1, msg_per_sync,1000000,time per sync,3033268.500000,iter,1,skip,0
+---- size=8192, elem=1024, MAX_TB=80, malloc 0.655360 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,1,time per sync,57.528225,iter,100000,skip,0
+size=,8192, block,1, msg_per_sync,1,time per sync,7.816165,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,2,time per sync,55.530701,iter,100000,skip,0
+size=,8192, block,1, msg_per_sync,2,time per sync,12.320251,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,4,time per sync,55.910664,iter,100000,skip,0
+size=,8192, block,1, msg_per_sync,4,time per sync,21.532551,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,6,time per sync,56.728737,iter,100000,skip,0
+size=,8192, block,1, msg_per_sync,6,time per sync,30.650457,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,8,time per sync,57.536495,iter,100000,skip,0
+size=,8192, block,1, msg_per_sync,8,time per sync,39.806034,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,10,time per sync,57.881973,iter,10000,skip,0
+size=,8192, block,1, msg_per_sync,10,time per sync,48.959927,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,100,time per sync,89.621826,iter,1000,skip,0
+size=,8192, block,1, msg_per_sync,100,time per sync,460.936737,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,1000,time per sync,742.832642,iter,100,skip,0
+size=,8192, block,1, msg_per_sync,1000,time per sync,4581.789551,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,10000,time per sync,7370.902344,iter,10,skip,0
+size=,8192, block,1, msg_per_sync,10000,time per sync,45778.703125,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,100000,time per sync,73486.718750,iter,1,skip,0
+size=,8192, block,1, msg_per_sync,100000,time per sync,457862.593750,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,8192, block,216, msg_per_sync,1000000,time per sync,739148.812500,iter,1,skip,0
+size=,8192, block,1, msg_per_sync,1000000,time per sync,4578547.500000,iter,1,skip,0
+---- size=65536, elem=8192, MAX_TB=80, malloc 5.242880 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,1,time per sync,64.917953,iter,100000,skip,0
+size=,65536, block,1, msg_per_sync,1,time per sync,21.918848,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,2,time per sync,62.763561,iter,100000,skip,0
+size=,65536, block,1, msg_per_sync,2,time per sync,40.605320,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,4,time per sync,64.889793,iter,100000,skip,0
+size=,65536, block,1, msg_per_sync,4,time per sync,78.021210,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,6,time per sync,69.066475,iter,100000,skip,0
+size=,65536, block,1, msg_per_sync,6,time per sync,115.397560,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,8,time per sync,74.840805,iter,100000,skip,0
+size=,65536, block,1, msg_per_sync,8,time per sync,152.783325,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,10,time per sync,80.103294,iter,10000,skip,0
+size=,65536, block,1, msg_per_sync,10,time per sync,190.179596,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,100,time per sync,593.703857,iter,1000,skip,0
+size=,65536, block,1, msg_per_sync,100,time per sync,1872.764648,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,1000,time per sync,5586.216797,iter,100,skip,0
+size=,65536, block,1, msg_per_sync,1000,time per sync,18698.695312,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,10000,time per sync,52747.062500,iter,10,skip,0
+size=,65536, block,1, msg_per_sync,10000,time per sync,186951.953125,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,100000,time per sync,516979.437500,iter,1,skip,0
+size=,65536, block,1, msg_per_sync,100000,time per sync,1869516.625000,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,65536, block,216, msg_per_sync,1000000,time per sync,5169949.000000,iter,1,skip,0
+size=,65536, block,1, msg_per_sync,1000000,time per sync,18694964.000000,iter,1,skip,0
+---- size=262144, elem=32768, MAX_TB=80, malloc 20.971520 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,1,time per sync,100.273209,iter,100000,skip,0
+size=,262144, block,1, msg_per_sync,1,time per sync,70.628273,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,2,time per sync,98.496597,iter,100000,skip,0
+size=,262144, block,1, msg_per_sync,2,time per sync,138.058014,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,4,time per sync,116.123688,iter,100000,skip,0
+size=,262144, block,1, msg_per_sync,4,time per sync,272.925354,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,6,time per sync,152.245834,iter,100000,skip,0
+size=,262144, block,1, msg_per_sync,6,time per sync,407.770691,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,8,time per sync,192.317215,iter,100000,skip,0
+size=,262144, block,1, msg_per_sync,8,time per sync,542.617371,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,10,time per sync,237.516449,iter,10000,skip,0
+size=,262144, block,1, msg_per_sync,10,time per sync,677.492126,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,100,time per sync,2373.013428,iter,1000,skip,0
+size=,262144, block,1, msg_per_sync,100,time per sync,6746.068848,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,1000,time per sync,22478.568359,iter,100,skip,0
+size=,262144, block,1, msg_per_sync,1000,time per sync,67431.468750,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,10000,time per sync,212068.718750,iter,10,skip,0
+size=,262144, block,1, msg_per_sync,10000,time per sync,674279.750000,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,100000,time per sync,2060273.875000,iter,1,skip,0
+size=,262144, block,1, msg_per_sync,100000,time per sync,6742811.000000,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,262144, block,216, msg_per_sync,1000000,time per sync,20608220.000000,iter,1,skip,0
+size=,262144, block,1, msg_per_sync,1000000,time per sync,67428520.000000,iter,1,skip,0
+---- size=1048576, elem=131072, MAX_TB=80, malloc 83.886080 MB
+---- messages per sync 1. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,1,time per sync,278.172028,iter,100000,skip,0
+size=,1048576, block,1, msg_per_sync,1,time per sync,265.475647,iter,100000,skip,0
+---- messages per sync 2. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,2,time per sync,278.049072,iter,100000,skip,0
+size=,1048576, block,1, msg_per_sync,2,time per sync,527.749023,iter,100000,skip,0
+---- messages per sync 4. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,4,time per sync,383.204163,iter,100000,skip,0
+size=,1048576, block,1, msg_per_sync,4,time per sync,1052.336304,iter,100000,skip,0
+---- messages per sync 6. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,6,time per sync,567.297607,iter,100000,skip,0
+size=,1048576, block,1, msg_per_sync,6,time per sync,1576.874390,iter,100000,skip,0
+---- messages per sync 8. iter=100000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,8,time per sync,755.279297,iter,100000,skip,0
+size=,1048576, block,1, msg_per_sync,8,time per sync,2101.429199,iter,100000,skip,0
+---- messages per sync 10. iter=10000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,10,time per sync,944.112183,iter,10000,skip,0
+size=,1048576, block,1, msg_per_sync,10,time per sync,2625.992920,iter,10000,skip,0
+---- messages per sync 100. iter=1000 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,100,time per sync,9479.074219,iter,1000,skip,0
+size=,1048576, block,1, msg_per_sync,100,time per sync,26231.031250,iter,1000,skip,0
+---- messages per sync 1000. iter=100 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,1000,time per sync,89217.421875,iter,100,skip,0
+size=,1048576, block,1, msg_per_sync,1000,time per sync,262282.562500,iter,100,skip,0
+---- messages per sync 10000. iter=10 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,10000,time per sync,840310.187500,iter,10,skip,0
+size=,1048576, block,1, msg_per_sync,10000,time per sync,2622800.500000,iter,10,skip,0
+---- messages per sync 100000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,100000,time per sync,8196124.000000,iter,1,skip,0
+size=,1048576, block,1, msg_per_sync,100000,time per sync,26227550.000000,iter,1,skip,0
+---- messages per sync 1000000. iter=1 + 0
+minGridSize=216, myblockSize=768
+size=,1048576, block,216, msg_per_sync,1000000,time per sync,81964680.000000,iter,1,skip,0
+size=,1048576, block,1, msg_per_sync,1000000,time per sync,262278656.000000,iter,1,skip,0
