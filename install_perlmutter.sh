@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-source ./nvshmem_env 
+source ./nvshmem_env_perlmutter 
 
 export NVSHMEM_HOME=/global/cfs/cdirs/m2956/nanding/software/nvshmem_src_2.9.0-2/build
 export MPICH_GPU_SUPPORT_ENABLED=0
@@ -17,5 +17,8 @@ export NVSHMEM_BOOTSTRAP=MPI
 export NVSHMEM_DEBUG=0
 
 export CUDA_HOME=${CUDA_HOME}
-cd ./examples
+
+make -j16
+
+cd ./perftest
 make -j16
